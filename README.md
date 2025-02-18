@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# This is a Treedom Test application
+
+v---- Here below the description of the test ----v
+
+```
+Realizzare un semplice form in tre step, che preveda una validazione lato server per proseguire allo step successivo. Il layout deve prevedere un comportamento responsive che presenti una struttura verticale nelle versioni desktop e uno slider/carousel per quella mobile.
+
+Dettagli:
+I punti chiave sono appunto la gestione del passaggio tra gli step in seguito a validazione, e il comportamento responsive del layout. La validazione può essere simulata nel modo che preferisci (fake Promise, servizi mock, ecc.). La struttura stessa del form non è discriminante e può consistere anche di un solo input per step.
+
+Tecnologie:
+Per lo sviluppo utilizza il framework React. Sfrutta liberamente i relativi CLI per il bootstrap dell'app e ogni pacchetto esterno ritieni necessario.
+Per quanto riguarda le regole di stile, limitati a quelle eventualmente necessarie al corretto comportamento del form o utilizza, anche in questo caso, React.
+```
 
 ## Getting Started
 
-First, run the development server:
+First, install packages:
+
+```bash
+npm install
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
